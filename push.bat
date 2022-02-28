@@ -1,4 +1,4 @@
-REM @echo off
+@echo off
 set /p commit="Enter commit: "
 git add *
 git commit -m "%commit%"

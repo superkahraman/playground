@@ -1,6 +1,6 @@
 import socket
 mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-mysock.connect(('127.0.0.1', 8000))
+mysock.connect(('127.0.0.1', 80))
 cmd = 'GET / HTTP/1.0\r\n\r\n'.encode()
 mysock.send(cmd)
 
